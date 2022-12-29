@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Home */
+.container{
+    display: flex;
+}
+.sideBar{
+    background-color: rgb(184, 178, 178);
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sideBarGo{
+    transform: translate(-215px, 0);
+    position: absolute;
+}
+.sideBar nav{
+    padding: 40px;
+}
+.sideBar nav li{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 30px 0;
+}
+.sideBar nav li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.main{
+    width: 100vw;
+    /* background-color: rgb(132, 201, 247); */
+}
+.intro{
+    /* background-color: palevioletred; */
+    height: 65vh;
+    width: 80vw;
+    margin:80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.myInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.greetings{
+    font-size: 4.8rem;
+    font-weight: 550;
+}
+.name{
+    font-size: 3.6rem;
+}
+.about{
+    font-size: 2.2rem;
+}
+.moreabout{
+    font-size: 1.6rem;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    padding: 10px 15px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: antiquewhite;
+    background-color: black;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+.myPic img{
+    height: 65vh;
+}
+.btn-primary{
+    margin: 16px 0;
+    font-size: 14px;
+    padding: 6px 13px;
+}
+/* Contcat */
+.contactform{
+    padding: 0 30px;
+    padding-top: 120px;
+}
+.contactform h1{
+    padding: 10px 0;
+}
+.contactinfo{
+    margin: 10px;
+}
+.contactinfo h4
+{
+    margin-top: 10px;
+}
+/* Blog */
+.blogContainer h1{
+    font-size: 70px;
+    margin: 25px;
+    text-align: center;
+}
+.blogItems{
+    margin: 20px;
+}
+.blogItems h2{
+    font-size: 36px;
+    margin: 10px 0;
+}
+/* Services */
+.skillContainer h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.skillItem{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}
+.skill{
+    width: 250px;
+    height: 15px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.skill p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.hundred{
+    width: 285px;
+    background-color: rgb(47, 224, 47);
+}
+.e8{
+    width: 240px;
+    background-color: rgb(255, 72, 0);
+}
+.e75{
+    width: 225px;
+    background-color: rgb(199, 30, 208);
+}
+.hamburger{
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    cursor: pointer;
+}
+.cross{
+    margin-left: 145px;
+}
+@media (max-width: 1000px){
+
+    .myPic img{
+
+        width: 30vw;
+        height: 65vh;
+    }
+    .intro{
+        height: 100vh;
+        width: 70vw;
+        padding-left: 10px;
+    }
+    .greetings{
+        font-size: 2.2rem;
+    }
+    .name{
+        font-size: 1.9rem;
+        font-weight: bold;
+    }
+    .about{
+        font-size: 1.6rem;
+    }
+    .moreabout{
+        font-size: 1.2rem;
+    }
+    .btn{
+        padding: 4px 7px;
+        font-size: 13px;
+        margin: 0px 5px;
+    }
+    .sideBar nav li{
+        padding: 15px 0;
+        font-size: 1.0rem;
+    }
+}
